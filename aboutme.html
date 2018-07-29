@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="siva_sankara_narayanan,siva,sivasankaranarayanan,narayanan,sivasankar">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-repeat: unset;background-image:url('g2.jpg');background-attachment: fixed;">
+	<div class="second">
+   	   <ul style="position: fixed;">
+   			<li style="list-style: none;"><a id="gh" href="index.html">HOME</a></li>
+   			<li style="list-style: none;"><a id="gh" href="resume.html">RESUME</a></li>
+   			<li class="si" style="list-style: none;"><a id="hg" href="aboutme.html">ABOUTME</a></li>
+   			<li style="list-style: none;"><a id="hg" href="socialpages.html">SOCIAL PAGES</a></li>
+   		</ul>
+   	</div>
+  <div>
+   	  <div class="w3-content w3-section" style="max-width:500px">
+         <img class="mySlides" src="g1.jpg" style="width:100%">
+         <img class="mySlides" src="g3.jpg" style="width:100%">
+         <img class="mySlides" src="g4.jpg" style="width:100%">
+       </div>
+
+     <script>
+         var myIndex = 0;
+         carousel();
+
+          function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+            }
+         myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+         setTimeout(carousel, 2000); // Change image every 2 seconds
+         }
+      </script>
+      <br>
+      <div>
+      	<br>
+      	
+
+      	<p style="color: white">
+      		Name:Siva Sankara Narayanan.T<br>
+      		CONTACT:<br>
+      		Email:ssankar391@gmail.com<br>
+      		Ph.No:7667807482<br>
+      		Location:Tamilnadu,India.
+      	</p>
+      </div>
+  </div>
+</body>
+</html>

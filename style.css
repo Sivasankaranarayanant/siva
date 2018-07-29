@@ -1,0 +1,75 @@
+.first 
+{
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 32px;
+	color: blue-purple;
+	margin-top: 60px;
+}
+.second
+{
+	list-style: none;
+
+	overflow: hidden;
+	width: 100%;
+	background-color: transparent;
+}
+li
+{
+	float: left;
+	margin-left: 40px;
+	padding-bottom: 10px;
+}
+li a 
+{
+	color: #2d792d;
+
+	font-style: oblique;
+	font-size: 36px;
+
+
+}
+li a:hover
+{
+	color: #464679;
+}
+.back
+{
+	
+	height: 100%;
+	width:100%;
+}
+ul
+{
+	margin-top: -10px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+input
+{
+	border-color: green;
+	background-color: #5aad4f;
+	text-decoration-color: white;
+}
+input:hover
+{
+	background-color: grey;
+	border-color: black;
+}
+.mySlides
+{
+  transform: rotate(90deg);
+  margin-top: 150px;
+  margin-left: -450px;
+}
+.si
+{
+	background-color: #444;
+}
